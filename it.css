@@ -1,0 +1,184 @@
+/* we use poppins font so we use this link*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/*basic for all webpage for margins*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+
+
+#header2{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+      background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)), url(images/img11.jpg); 
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding-top: 40px;
+      text-align: center;
+      color: #fff;
+  }
+ 
+  /* departments*/
+  #services
+  {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.644)),url(images/img22.jpg);
+      background-size: cover;
+      background-position: center;
+      color: #efefef !important;
+      background-attachment: fixed;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  #services h1
+  {
+      text-align: center;
+      color: #efefef !important;
+      padding-bottom: 10px;
+  }
+  #services h1::after
+  {
+      content: '';
+      background: #efefef;
+      display: block;
+      height: 3px;
+      width: 170px;
+      margin: 20px auto 5px;
+  }
+  .services
+  {
+      margin-top: 40px;
+  }
+  .icon
+  {
+      font-size: 30px;
+      margin: 20px auto;
+      padding: 20px;
+      height: 80px;
+      width: 80px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+  }
+  
+  #services p
+  {
+      font-size: 14px;
+      margin-top: 20px;
+      color: #ccc;
+  }
+  .services .col-md-3:hover{
+      background: #242323ec;
+      cursor: pointer;
+      transition: 0.7s;
+  }
+  .services .col-md-3{
+    width:370px;
+  }
+  
+  .container2 h1{
+    font-size: 2em;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  
+  }
+
+  
+  @media (max-width: 420px){
+    .img-slider{
+      width: 320px;
+      height: 200px;
+    }
+  
+    .img-slider .slide .info{
+      padding: 5px 10px;
+    }
+  
+    .img-slider .slide .info h2{
+      font-size: 25px;
+    }
+  
+    .img-slider .slide .info p{
+      width: 90%;
+      font-size: 11px;
+    }
+  
+    .img-slider .navigation{
+      bottom: 10px;
+    }
+  }
+        
+  .menu2{
+    color:white;
+    font-size: 1.9em;
+    font-weight:1700px;
+    text-decoration: none;
+  }
+  #services
+  {
+      background-image: linear-gradient(rgba(0, 0, 0, 0.527),rgba(0, 0, 0, 0.644)),url(images/img22.jpg);
+      background-size: cover;
+      background-position: center;
+      color: #efefef !important;
+      background-attachment: fixed;
+      padding-top: 50px;
+      padding-bottom: 50px;
+  }
+  #services h1
+  {
+      text-align: center;
+      color: #efefef !important;
+      padding-bottom: 10px;
+  }
+  #services h1::after
+  {
+      content: '';
+      background: #efefef;
+      display: block;
+      height: 3px;
+      width: 170px;
+      margin: 20px auto 5px;
+  }
+  .services
+  {
+      margin-top: 40px;
+  }
+  .icon
+  {
+      font-size: 30px;
+      margin: 20px auto;
+      padding: 20px;
+      height: 80px;
+      width: 80px;
+      border: 1px solid #fff;
+      border-radius: 50%;
+  }
+  
+  #services p
+  {
+      font-size: 14px;
+      margin-top: 20px;
+      color: #ccc;
+  }
+  .services .col-md-3:hover{
+      background: #242323ec;
+      cursor: pointer;
+      transition: 0.7s;
+  }
+  .services .col-md-3{
+    width:370px;
+  }
+  
+  .container2 h1{
+    font-size: 2em;
+    font-weight: 600;
+    color: #fff;
+    line-height: 1em;
+    text-transform: uppercase;
+  
+  }

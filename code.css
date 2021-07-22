@@ -1,0 +1,688 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+/*---------------header--------*/
+#header2{
+    font-family: 'Poppins', sans-serif;
+    height: 100%;
+      background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)), url(images/img12.jpg); 
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding-top: 40px;
+      text-align: center;
+      color:rgb(212, 208, 208);
+  }
+  .h11{
+    font-size: 3.0em;
+    font-weight: 400;
+    color:rgb(212, 208, 208);
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  .para2{
+    font-family: 'Poppins', sans-serif;
+   margin-top: 120px;
+    padding-left:80px;
+    padding-right:100px;
+    font-size: 2.0em;
+    font-weight: 1;
+    font-style: italic;
+    color:rgb(212, 208, 208);
+    line-height: 1.5em;
+    text-align: center;
+
+  }
+ 
+.img1{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863));
+}
+/*---------------header ends--------*/
+/*---contact---*/
+#contact {
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)),  url(images/keyboard.jpg); 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-right-col {
+    flex-basis: 50%;
+}
+
+.contact-right-col img {
+    width: 100%;
+}
+
+.head2 {
+    margin-left: 350px;
+    margin-top: 10px;
+    margin-bottom: 150px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 38px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+
+    align-items: center;
+    margin-top: 100px;
+    ;
+    max-width: 350px;
+    margin: 30px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #0f021a;
+}
+
+.btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-box button {
+    color: rgb(0, 0, 0)!important;
+    font-style: bold;
+    flex-basis: 48%;
+    padding: 18px 0px;
+}
+
+
+
+
+* {
+    box-sizing: border-box
+}
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin-top: -400px;
+    margin-left: 650px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+    position: relative;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    left: 220px;
+
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+
+#winner {
+    height: 300vh;
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)),  url(images/keyboard.jpg); 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(255, 255, 255);
+
+}
+
+.head1 {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-decoration-line: underline;
+
+
+
+}
+
+.head {
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    margin-bottom: -40px;
+
+}
+
+.table {
+    margin-left:0px;
+    width: 70%;
+    border-collapse: collapse;
+}
+
+.table td,
+.table th {
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 12px 15px;
+    border: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+  
+    color: #000000;
+}
+
+.table th {
+    background-color: rgba(0, 0, 0, 0.363);
+    color: #ffffff;
+}
+
+.table tbody tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.37);
+    color: #ffffff;
+}
+
+/*responsive*/
+
+@media(max-width: 500px) {
+
+    #contact {
+        background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)),  url(images/keyboard.jpg); 
+        padding-top: 0px;
+        padding-bottom: 0px;
+        color: rgb(255, 255, 255);
+    }
+    .head2 {
+        margin-left: 350px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        color: rgb(255, 255, 255);
+        font-size: 38px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    #winner {
+        height: 750vh;
+        background-image: url(images/tower.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .table thead {
+        display: none;
+        height: 40px;
+    }
+
+    .table,
+    .table tbody,
+    .table tr,
+    .table th,
+    .table td {
+        display: block;
+        width: 95%;
+        margin-left: 9px;
+
+
+    }
+
+    .table tr {
+        margin-bottom: 15px;
+    }
+
+    .table td {
+        text-align: right;
+        padding-left: 50%;
+        text-align: right;
+        position: relative;
+    }
+
+    .table td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 0;
+        width: 50%;
+        padding-left: 15px;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@media(max-width:500px) {
+    /*---------------header--------*/
+#header2{
+    font-family: 'Poppins', sans-serif;
+    height: 80%;
+      background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)), url(images/img11.jpg); 
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      padding-top: 40px;
+      text-align: center;
+      color:rgb(212, 208, 208);
+  }
+  .h11{
+    font-size: 1.3em;
+    font-weight: 600;
+    color:rgb(212, 208, 208);
+    line-height: 1em;
+    text-transform: uppercase;
+  }
+  .para2{
+    font-family: 'Poppins', sans-serif;
+   margin-top: 80px;
+    padding-left:10px;
+    padding-right:10px;
+    font-size: 1.0em;
+    font-weight: 1;
+    font-style: italic;
+    color:rgb(212, 208, 208);
+    line-height: 1.5em;
+    text-align: center;
+
+  }
+ 
+.img1{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863));
+}
+/*---------------header ends--------*/
+
+/*---------------About--------*/
+#about
+{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)),  url(images/keyboard1.jpg); 
+    padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(212, 208, 208);
+}
+#about .btn
+{
+    background-color: #202122;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+#about .btn1
+{
+    margin-top: 0px;
+    margin-bottom: 30px;
+    margin-left: 120px;
+    background-color:rgb(22, 21, 21) !important;
+    border-color:rgb(23, 24, 24)!important;
+    padding-top: 10px;
+    padding-left:10px;
+    padding-right:10px;
+    padding-bottom:10px;
+    border-radius: 9.5px;
+}
+.about-content
+{
+    padding-top: 20px;
+}
+.skills-bar p
+{ margin-left:180px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+}
+/*------------------clubs------------*/
+#clubs
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(images/keyboard.jpg);
+    background-size: cover;
+    background-position: center;
+    color:rgb(212, 208, 208) !important;
+    background-attachment: fixed;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+#clubs h1
+{
+    text-align: center;
+    color: rgb(212, 208, 208)!important;
+    padding-bottom: 10px;
+}
+#clubs h1::after
+{
+    content: '';
+    background:rgb(212, 208, 208);
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.clubs
+{
+    margin-top: 40px;
+}
+.icon
+{
+    font-size: 40px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 80px;
+    width: 80px;
+    border: 1px solid rgb(212, 208, 208);
+    border-radius: 50%;
+}
+#clubs p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: rgb(212, 208, 208);
+}
+.clubs .col-md-3:hover{
+    background: #202122;
+    cursor: pointer;
+    transition: 0.7s;
+}
+/*---contact---*/
+#contact {
+    height: 100vh;
+    background-image: url(images/for2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-right-col {
+    flex-basis: 50%;
+}
+
+.contact-right-col img {
+    width: 100%;
+}
+
+.head2 {
+    margin-left: 0px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+
+    align-items: center;
+    margin-top: 100px;
+    ;
+    max-width: 350px;
+    margin: 30px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #0f021a;
+}
+
+.btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-box button {
+    color: seashell;
+    flex-basis: 48%;
+    padding: 18px 0px;
+}
+
+
+
+
+* {
+    box-sizing: border-box
+}
+/*___________alumini-----------*/
+#alumini
+{
+    background-image: linear-gradient(rgba(10, 10, 10, 0.87),rgba(0, 0, 0, 0.863)),  url(images/keyboard1.jpg); 
+   padding-top: 50px;
+    padding-bottom: 50px;
+    color: rgb(212, 208, 208);
+}
+h1
+{
+    text-align: center;
+    color: rgb(212, 208, 208) !important;
+    padding-bottom: 10px;
+}
+h1::after
+{
+    content: '';
+    background:#202122;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic
+{
+    margin-top: 25px;
+}
+.profile-pic .img-box
+{
+    opacity: 1;
+    display: block;
+    position: relative;
+}
+.profile-pic .img-box img
+{
+    filter: grayscale(1);
+}
+.profile-pic .img-box img:hover
+{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #d5dadf !important;
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+}
+#fa
+{
+    height: 25px;
+    width: 25px;
+    color:#202122 !important;
+    background:rgb(212, 208, 208);
+    padding: 4px;
+    border-radius: 50%;
+}
+.img-box ul
+{
+  padding: 15px 0;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+}
+.img-box:hover ul
+{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+    transition: 0.5s;
+}
+/*------------Promo--------*/
+#promo
+{
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url(images/promo.jpg);
+    background-size: cover;
+    background-position: center;
+    color: rgb(212, 208, 208);
+    background-attachment: fixed;
+    text-align: center;
+    padding:50px;
+    font-family: sans-serif;
+    font-size: 18px;
+}
+
+/*--------Footer-------*/
+#footer
+{
+   background: #333;
+    color: rgb(212, 208, 208);
+    padding: 12px;
+}
+.fa-heart-o
+{
+    margin: 3px;
+    color: red;
+}
+
+}
+
+
+
+
+
+

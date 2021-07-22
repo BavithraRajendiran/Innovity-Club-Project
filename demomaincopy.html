@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>InnoITy Club</title>
+
+    <link rel="stylesheet" href="demomaincopy.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@1,400;1,600;1,700;1,800&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+</head>
+
+<body>
+    <section id="header">
+        <div class="container">
+            <img src="images/stblack.png" class="logo">
+            <div class="header-text">
+                <h5 class="headtext">We Make You Shine</h5>
+
+                <h1 class="headtext">St.JOSEPH'S INSTITUTE OF TECHNOLOGY</h1>
+                <h3 class="headtext">(St.JOSEPH'S GROUP OF INSTITUTION)</h3>
+
+                <h4 class="headtext">OMR,CHENNAI-600119</h4>
+
+
+                <h1 class="headtext1">InnovITy Club</h1>
+                <p class="para1">InnovITy is a club organized by Department of Information Technology. Every semester
+                    two events will be conducted one technical and non-techical. A cash prize of Rs 2000 is given to the
+                    prize winners in every semester. This club is highly to motivate the students in participating the
+                    events and improve their technical skills . Various events like Code Debugging, Technical Quiz,
+                    Googling, Poster Design , Adzap, Techno Talk, Talk show, Group Discussion etc.</p>
+
+            </div>
+        </div>
+    </section>
+
+    <nav id="sideNav">
+        <ul>
+            <li><a href="#header">Home</a></li>
+            <li><a href="#contact">For Registration </a></li>
+            <li><a href="#winner">Achievers List </a></li>
+           
+            
+
+        </ul>
+    </nav>
+    <img src="images/menu2.png" id="menuBtn">
+
+        <!--Contact -->
+
+        <section id="contact">
+
+            <div class="container contact-row">
+                <div class="contact-left-col">
+                    <h1 class="head2">Register to join InnovITy club</h1>
+                    <form>
+                        <input type="Name" placeholder="Name" name="name" id="nameI" required=" fill out ">
+    
+                        <input type="Register No" placeholder="Register number" id="reg" name="reg" required="">
+    
+                        <input type="Department" placeholder="Department" name="dept" id="dept" required="">
+    
+                        <input type="Year" placeholder="Year" name="year" id="year" required="">
+    
+                        <input type="email" placeholder="Email ID" name="mail" id="mail" required="">
+    
+    
+                        <div class="btn-box">
+                            <button id="subBtn" class="common-btn">Submit</button>
+    
+                        </div>
+                    </form>
+    
+                </div>
+    
+    
+            </div>
+    
+    
+            <div id="ss">
+                <div class="slideshow-container">
+    
+                    <div class="mySlides fade">
+    
+                        <img src="images/stj1.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+    
+                    <div class="mySlides fade">
+    
+                        <img src="images/club1.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+    
+                    <div class="mySlides fade">
+    
+                        <img src="images/club3.jpg" style="width:100%">
+                        <div class="text"></div>
+                    </div>
+    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    
+                </div>
+                <br>
+    
+                <div style="text-align:center">
+                    <span class="dot" onclick="currentSlide(1)"></span>
+                    <span class="dot" onclick="currentSlide(2)"></span>
+                    <span class="dot" onclick="currentSlide(3)"></span>
+                </div>
+            </div>
+    
+            <script>
+                var slideIndex = 0;
+                showSlides();
+    
+                function showSlides() {
+                    var i;
+                    var slides = document.getElementsByClassName("mySlides");
+                    var dots = document.getElementsByClassName("dot");
+                    for (i = 0; i < slides.length; i++) {
+                        slides[i].style.display = "none";
+                    }
+                    slideIndex++;
+                    if (slideIndex > slides.length) {
+                        slideIndex = 1
+                    }
+                    for (i = 0; i < dots.length; i++) {
+                        dots[i].className = dots[i].className.replace(" active", "");
+                    }
+                    slides[slideIndex - 1].style.display = "block";
+                    dots[slideIndex - 1].className += " active";
+                    setTimeout(showSlides, 2000); // Change image every 2 seconds
+                }
+            </script>
+    
+    
+    
+    
+        </section>
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <section id="winner">
+        <br>
+        <br>
+        <br>
+        <h1 class="head1"> Winners List</h1>
+        <br>
+        <br>
+        <br>
+        <h1 class="head">Poster designing</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+        <table class="table">
+            <thead>
+                <th>S.No</th>
+                <th>Student Name</th>
+                <th>Year</th>
+                <th>Place Won</th>
+                <th>Amount</th>
+            </thead>
+            <tbody>
+
+                <tr>
+                    <td data-label="S.No"><b>1</b></td>
+                    <td data-label="Student Name"><b>Rubavathi M</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>1</b></td>
+                    <td data-label="Amount"><b>500</b></td>
+                </tr>
+                <tr>
+                    <td data-label="S.No"><b>2</b></td>
+                    <td data-label="Student Name"><b>Priyanka J L</b></td>
+                    <td data-label="Year&Department"><b>II - IT</b></td>
+                    <td data-label="Place Won"><b>1</b></td>
+                    <td data-label="Amount"><b>500</b></td>
+                </tr>
+
+                <tr>
+                    <td data-label="S.No"><b>3</b></td>
+                    <td data-label="Student Name"><b>Deepak A</b></td>
+                    <td data-label="Year&Department"><b>II - IT</b></td>
+                    <td data-label="Place Won"><b>2</b></td>
+                    <td data-label="Amount"><b>300</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>4</b></td>
+                    <td data-label="Student Name"><b>Tharanya V</b></td>
+                    <td data-label="Year&Department"><b>II - IT</b></td>
+                    <td data-label="Place Won"><b>2</b></td>
+                    <td data-label="Amount"><b>300</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>5</b></td>
+                    <td data-label="Student Name"><b>Mohana Priya N</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>3</b></td>
+                    <td data-label="Amount"><b>200</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>6</b></td>
+                    <td data-label="Student Name"><b>Subhashree S R</b></td>
+                    <td data-label="Year&Department"><b>II - IT</b></td>
+                    <td data-label="Place Won"><b>3</b></td>
+                    <td data-label="Amount"><b>200</b></td>
+                </tr>
+
+
+
+
+            </tbody>
+
+        </table>
+
+        <br>
+        <br>
+        <br>
+        <h1 class="head">ADZAP</h1>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <table class="table">
+            <thead>
+                <th>S.No</th>
+                <th>Student Name</th>
+                <th>Year</th>
+                <th>Place Won</th>
+                <th>Amount</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td data-label="S.No"><b>1</b></td>
+                    <td data-label="Student Name"><b>Yogesh Kumar S</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>1</b></td>
+                    <td data-label="Amount"><b>500</b></td>
+                </tr>
+                <tr>
+                    <td data-label="S.No"><b>2</b></td>
+                    <td data-label="Student Name"><b>Siva Shankar S R</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>1</b></td>
+                    <td data-label="Amount"><b>500</b></td>
+                </tr>
+
+                <tr>
+                    <td data-label="S.No"><b>3</b></td>
+                    <td data-label="Student Name"><b>Praveen P</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>1</b></td>
+                    <td data-label="Amount"><b>500</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>4</b></td>
+                    <td data-label="Student Name"><b>Saravanasubbiah S</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>1</b></td>
+                    <td data-label="Amount"><b>500</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>5</b></td>
+                    <td data-label="Student Name"><b>Mukesh Arunachalam</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>2</b></td>
+                    <td data-label="Amount"><b>300</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>6</b></td>
+                    <td data-label="Student Name"><b>Eshwar S</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>2</b></td>
+                    <td data-label="Amount"><b>300</b></td>
+                </tr>
+                <tr>
+                    <td data-label="S.No"><b>7</b></td>
+                    <td data-label="Student Name"><b>Naveen Kumar R</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>2</b></td>
+                    <td data-label="Amount"><b>300</b></td>
+                </tr>
+                <tr>
+                    <td data-label="S.No"><b>8</b></td>
+                    <td data-label="Student Name"><b>Ajay S</b></td>
+                    <td data-label="Year&Department"><b>III - IT</b></td>
+                    <td data-label="Place Won"><b>2</b></td>
+                    <td data-label="Amount"><b>300</b></td>
+                </tr>
+
+                <tr>
+                    <td data-label="S.No"><b>9</b></td>
+                    <td data-label="Student Name"><b>Amalesh M V</b></td>
+                    <td data-label="Year&Department"><b>II - IT</b></td>
+                    <td data-label="Place Won"><b>3</b></td>
+                    <td data-label="Amount"><b>200</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>10</b></td>
+                    <td data-label="Student Name"><b>Chinnaiah N</b></td>
+                    <td data-label="Year&Department"><b>II - IT</b></td>
+                    <td data-label="Place Won"><b>3</b></td>
+                    <td data-label="Amount"><b>200</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>11</b></td>
+                    <td data-label="Student Name"><b>Munil Kumar S</b></td>
+                    <td data-label="Year&Department"><b>II - IT</b></td>
+                    <td data-label="Place Won"><b>3</b></td>
+                    <td data-label="Amount"><b>200</b></td>
+                </tr>
+
+
+                <tr>
+                    <td data-label="S.No"><b>12</b></td>
+                    <td data-label="Student Name"><b>Dinesh R</b></td>
+                    <td data-label="Year&Department"><b>II - IT</b></td>
+                    <td data-label="Place Won"><b>3</b></td>
+                    <td data-label="Amount"><b>200</b></td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+    <script>
+        var menuBtn = document.getElementById("menuBtn");
+        var sideNav = document.getElementById("sideNav");
+
+        sideNav.style.right = "-250px";
+        menuBtn.onclick = function () {
+            if (sideNav.style.right == "-250px") {
+                sideNav.style.right = "0";
+            } else {
+                sideNav.style.right = "-250px";
+            }
+        }
+
+        var scroll = new SmoothScroll('a[href*="#"]', {
+            speed: 1000,
+            speedAsDuration: true
+        });
+    </script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <script>
+
+            $("#subBtn").click(function(){
+
+            var nameI=$("#nameI").val();
+            var reg=$("#reg").val();
+            var dept=$("#dept").val();
+            var year=$("#year").val();
+            var mail=$("#mail").val();
+
+            if(nameI == '' || reg == '' || dept == '' || year == '' || mail == '')
+            {
+                swal({
+                    title: "Fields Empty!",
+                    text: "Please Check the missing field!",
+                    icon: "warning",
+                    button: "OK!",
+                });
+            }
+            else
+            {
+                swal({
+                    title: "Great!",
+                    text: "Registration is Succesfull!",
+                    icon: "success",
+                    button: "Aww yiss!",
+                });
+            }
+            })
+    </script>
+    </script>
+
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-database.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/8.3.3/firebase-analytics.js"></script>
+
+    <script>
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        var firebaseConfig = {
+            apiKey: "AIzaSyDl-jpBsDuN6k3qUyugHMPKtjCkKd1cORg",
+            authDomain: "innovativedatabase-6ed4f.firebaseapp.com",
+            projectId: "innovativedatabase-6ed4f",
+            storageBucket: "innovativedatabase-6ed4f.appspot.com",
+            messagingSenderId: "352705898350",
+            appId: "1:352705898350:web:1ec4b106bfce31ea34837f",
+            measurementId: "G-64PNH13BV5"
+        };
+        // Initialize Firebase
+        firebase.initializeApp(firebaseConfig);
+        firebase.analytics();
+    </script>
+    <script src="demomaincopy.js"> </script>
+
+
+</body>
+
+</html>

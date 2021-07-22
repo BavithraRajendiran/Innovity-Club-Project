@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>header2</title>
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,200&display=swap');
+      </style>
+    <link rel="stylesheet" href="head2.css">
+    
+    <!---font awesome connection link we used that in login form for icons---->
+    <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+    <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <!--linkf use from external-->
+</head>
+<body>
+    <section id="header2">
+
+        <div class="container2">
+        <h1 class="head1">ST.JOSEPH'S CLUBS</h1>
+      
+      
+        <p class="para2"> Technology will never replace great teachers but technology in the hands of great teacher is a transformational</p>
+        <p class="para3">“Learning never exhausts the mind”
+           “For the things we have to learn before we can do them, we learn by doing them”
+          “Learning is not attained by chance, it must be sought for with ardor and attended to with diligence”
+           “The beautiful thing about learning is that nobody can take it away from you.”</p>
+      <!------side menu bar-->
+        <div class="sidebar">
+          <div class="logo_content">
+            <div class="logo">
+              <i class='bx bxl-c-plus-plus'></i>
+              <div class="logo_name">clubs</div>
+            </div>
+            <i class='bx bx-menu' id="btn" ></i>
+          </div>
+          <ul class="nav_list">
+           
+            <li>
+              <a href="cl2.htm">
+                <i class='bx bx-grid-alt' ></i>
+                <span class="links_name">Home</span>
+              </a>
+              <span class="tooltip">Home</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-user' ></i>
+                <span class="links_name">Login</span>
+              </a>
+              <span class="tooltip">Login</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-chat' ></i>
+                <span class="links_name">Sign Up</span>
+              </a>
+              <span class="tooltip">Sign Up</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-pie-chart-alt-2' ></i>
+                <span class="links_name">Aluminis</span>
+              </a>
+              <span class="tooltip">Aluminis</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-folder' ></i>
+                <span class="links_name">Ideas</span>
+              </a>
+              <span class="tooltip">Ideas</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-cart-alt' ></i>
+                <span class="links_name">Workshops</span>
+              </a>
+              <span class="tooltip">Workshops</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-heart' ></i>
+                <span class="links_name">Upcomings</span>
+              </a>
+              <span class="tooltip">Upcomings</span>
+            </li>
+            <li>
+              <a href="#">
+                <i class='bx bx-cog' ></i>
+                <span class="links_name">Setting</span>
+              </a>
+              <span class="tooltip">Setting</span>
+            </li>
+          </ul>
+          <div class="profile_content">
+            <div class="profile">
+              <div class="profile_details">
+                <img src="profile.jpg" alt="">
+                <div class="name_job">
+                  <div class="name">Prem Shahi</div>
+                  <div class="job">Web Designer</div>
+                </div>
+              </div>
+              <i class='bx bx-log-out' id="log_out" ></i>
+            </div>
+          </div>
+        </div>
+        
+      
+        <script>
+         let btn = document.querySelector("#btn");
+         let sidebar = document.querySelector(".sidebar");
+         let searchBtn = document.querySelector(".bx-search");
+      
+         btn.onclick = function() {
+           sidebar.classList.toggle("active");
+           if(btn.classList.contains("bx-menu")){
+             btn.classList.replace("bx-menu" , "bx-menu-alt-right");
+           }else{
+             btn.classList.replace("bx-menu-alt-right", "bx-menu");
+           }
+         }
+         searchBtn.onclick = function() {
+           sidebar.classList.toggle("active");
+         }
+        </script>
+      <!--side menu bar ends -->
+      
+      
+       <br>
+        <section id="services">
+          <div class="container">
+            
+              <h1>DEPARTMENTS</h1>
+              <div class="row services">
+                  <!--<div class="col-md-3 text-center">
+                      <div class="icon">
+                        <i class="fa fa-code"></i>
+                      </div>
+                     
+                      <a class="menu2" href="it1.htm">IT</a>
+                      <p>Technology is a useful servant but a dangerous master</p>
+                  </div>-->
+                  &nbsp;
+                  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;  &nbsp;<div class="col-md-3 text-center">
+                    <div class="icon">
+                      <i class="fa fa-code"></i>
+                    </div>
+                   
+                    <a class="menu2" href="it1.htm">IT</a>
+                    <p>Technology is a useful servant but a dangerous master</p>
+                  </div>
+                  <!--<div class="col-md-3 text-center">
+                      <div class="icon">
+                        <i class="fas fa-microchip"></i>
+                      </div>
+                      <a class="menu2" href="#">ECE</a>
+                      <p>Clock controls the world , we control the clock</p>
+                  </div>
+                  <div class="col-md-3 text-center">
+                    <div class="icon">
+                      <i class="fas fa-bolt"></i>
+                    </div>
+                    <a class="menu2" href="#">EEE</a>
+                    <p>Electrifying the world with least resistance.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="icon">
+                    <i class="fa fa-cogs"></i>
+                    </div>
+                    <a class="menu2" href="#">MECH</a>
+                    <p>Without ME, Physics is just a theory.</p>
+                </div>
+                <div class="col-md-3 text-center">
+                  <div class="icon">
+                  <i class="fas fa-hotel"></i>
+                  </div>
+                  <a class="menu2" href="#">CIVIL</a>
+                  <p>The Road to success is always under Construction.</p>
+              </div>--->
+              
+                
+                   
+      
+              </div>      
+          </div>     
+      </section>
+        
+        <!-----
+        <div id="slider">
+          <div id="headerSlider" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+              <li data-target="#headerSlider" data-slide-to="0" class="active"></li>
+              <li data-target="#headerSlider" data-slide-to="1"></li>
+              <li data-target="#headerSlider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img class="d-block img-fluid" src="images/img4.jpg">
+                  <div class="carousel-caption">
+                      <h5>How To Make A Website</h5>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="images/img2.jpg">
+                  <div class="carousel-caption">
+                      <h5>Create Responsive Website</h5>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                <img class="d-block img-fluid" src="images/img3.jpg">
+                  <div class="carousel-caption">
+                      <h5>Business Website Design</h5>
+                  </div>
+              </div>
+            </div>
+            <a class="carousel-control-prev" href="#headerSlider" role="button" data-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#headerSlider" role="button" data-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div>
+          </div>----->
+        
+        
+        
+       
+        <script src="head2.js"></script>
+      
+      </body>
+      </html>

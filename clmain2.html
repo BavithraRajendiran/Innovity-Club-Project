@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>St.Joseph's Club</title>
+  <link rel="stylesheet" href="cl2.css">
+  <!---font awesome connection link we used that in login form for icons---->
+  <link rel="stylesheet" type="text/css" href="fontawesome/css/all.min.css">
+</head>
+
+<body>
+
+
+
+  <section class="showcase">
+    <header>
+      <img src="images/stblack.png" class="logo">
+      <div class="text1">
+        <h1>ST.JOSEPH'S INSTITUTE OF TECHNOLOGY</h1>
+        <h2>(St.JOSEPH'S GROUP OF INSTITUTIONS)</h2>
+        <p>OMR,CHENNAI-600119</p>
+
+      </div>
+      <div class="toggle"></div>
+    </header>
+    <video src="vedios/vedio6.mp4" muted loop autoplay></video>
+    <div class="overlay"></div>
+    <div class="text">
+      <h2>Do Today What Others Won't </h2>
+      <h3>So You Can Do Tomorrow What Other Can't</h3>
+      <p>St.Joseph's motive is to aspire to impart an effective education and innovative learning environment to meet
+        professional opportunities in information technology along with the challenges in real world.Explore the clubs
+        in the St.Joseph's Institute of Technoogy by clicking below explore button. </p>
+      <div>
+        <a class="a1" href="#">Explore</a>
+      </div>
+      <!---<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ <i class="glyphicon glyphicon-user"></i>
+<i class="glyphicon glyphicon-envelope"></i>-->
+
+
+
+
+      <button class="a2" onclick="document.getElementById('id01').style.display='block'"
+        style="width:auto;">Login</button>
+
+      <div id="id01" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id01').style.display='none'" class="close"
+              title="Close Modal">&times;</span>
+
+            <!---<img src="images/login.png" alt="Avatar" class="avatar">--->
+          </div>
+
+          <div class="container">
+
+            <span>
+              <i class="fa fa-user"></i>
+              <label for="uname"><b>Username</b></label>
+
+              <input type="text" placeholder="Enter Username" name="uname" required>
+            </span>
+            <span>
+              <i class="fa fa-lock"></i>
+              <label for="psw"><b>Password</b></label>
+
+              <input type="password" placeholder="Enter Password" name="psw" required>
+            </span>
+            <button type="submit">Login</button>
+          </div>
+
+
+        </form>
+      </div>
+      <script>
+        // Get the modal
+        var modal = document.getElementById('id01');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+      </script>
+
+
+      <button class="a3" onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Sign
+        Up</button>
+
+      <div id="id02" class="modal">
+
+        <form class="modal-content animate" action="/action_page.php" method="post">
+          <div class="imgcontainer">
+            <span onclick="document.getElementById('id02').style.display='none'" class="close"
+              title="Close Modal">&times;</span>
+
+            <!---<img src="images/login.png" alt="Avatar" class="avatar">--->
+          </div>
+
+          <div class="container1">
+            <span>
+              <i class="fa fa-user"></i>
+              <label for="uname"><b>Username</b></label>
+              <input type="text" placeholder="Enter Username" name="uname" required>
+            </span>
+            <span>
+              <i class="fa fa-lock"></i>
+              <label for="psw"><b>Password</b></label>
+              <input type="password" placeholder="Enter Password" name="psw" required>
+            </span>
+            <button type="submit">Sign Up</button>
+          </div>
+
+
+
+
+        </form>
+      </div>
+      <script>
+        // Get the modal
+        var modal = document.getElementById('id02');
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function (event) {
+          if (event.target == modal) {
+            modal.style.display = "none";
+          }
+        }
+      </script>
+    </div>
+  </section>
+
+  <div class="menu">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">News</a></li>
+      <li><a href="#">Destination</a></li>
+      <li><a href="#">Blog</a></li>
+      <li><a href="#">Contact</a></li>
+    </ul>
+  </div>
+  <script src="cl2.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,646 @@
+/* we use poppins font so we use this link*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+/*basic for all webpage for margins*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+    height: 100vh;
+    background-image: url(images/code.jpg);
+    opacity: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+.container {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+
+.logo {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 120px;
+}
+
+/* for header text*/
+.header-text {
+    text-align: center;
+
+
+}
+
+/*ST>JOSEPH*/
+h1.headtext {
+    margin-top: 4px;
+    color: white;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+/*st.joseph*/
+h3.headtext {
+    color: white;
+    margin-top: 2px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+/*OMR*/
+h4.headtext {
+    color: white;
+    margin-top: 5px;
+    font-size: 15px;
+}
+
+/*we make*/
+h5.headtext {
+    color: white;
+    margin-top: -120px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: italic;
+    font-size: 10px;
+}
+
+.headtext1 {
+    margin-top: 60px;
+    color: white;
+    font-size: 30px;
+    text-decoration: underline;
+}
+
+.para1 {
+    margin-top: 30px;
+    font-family: Playfair Display;
+}
+
+.common-btn {
+    padding: 18px 40px;
+    background: transparent;
+    outline: none;
+    border: 2px solid rgba(red, green, blue, alpha);
+    font-weight: bold;
+    cursor: pointer;
+}
+
+p {
+    margin-top: 80px;
+    font-size: 25px;
+    line-height: 38px;
+    color: white;
+}
+
+.header-text button {
+    margin-top: 20px;
+    margin-bottom: 60px;
+}
+
+#sideNav {
+    width: 200px;
+    height: 100vh;
+    position: fixed;
+    right: -250px;
+    top: 0px;
+    background: rgb(65, 82, 89);
+
+    z-index: 2;
+    transition: .5s;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 50px 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#menuBtn {
+    width: 50px;
+    position: fixed;
+    right: 65px;
+    top: 35px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+
+
+/*---contact---*/
+#contact {
+    height: 100vh;
+    background-image: url(images/for2.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.contact-row {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.contact-right-col {
+    flex-basis: 50%;
+}
+
+.contact-right-col img {
+    width: 100%;
+}
+
+.head2 {
+    margin-left: 0px;
+    margin-top: 130px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form {
+
+    align-items: center;
+    margin-top: 100px;
+    ;
+    max-width: 350px;
+    margin: 30px 0;
+}
+
+form input {
+    width: 100%;
+    padding: 12px 10px;
+    margin-bottom: 5px;
+    outline: none;
+    box-shadow: none;
+    box-sizing: border-box;
+    border: 2px solid #0f021a;
+}
+
+.btn-box {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-box button {
+    color: seashell;
+    flex-basis: 48%;
+    padding: 18px 0px;
+}
+
+
+
+
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 500px;
+    position: relative;
+    margin-top: -360px;
+    margin-left: 650px;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+    position: relative;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    left: 220px;
+
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+
+
+
+@media only screen and (max-width: 770px) {
+
+    #header {
+        background-image: url(images/mor4.jpg);
+    }
+
+    #ss {
+        display: none;
+    }
+
+    .container {
+        margin-right: 50px;
+        margin-left: 50px;
+    }
+
+    .logo {
+        margin-left: -50px;
+        margin-top: 6px;
+        width: 55px;
+    }
+
+    @media only screen and (max-width: 767px) {
+        .logo {
+            position: fixed;
+            top: 0;
+            margin: 20px 0;
+            display: inline-block;
+        }
+
+        /* for header text*/
+        .header-text {
+            margin-top: -46px;
+            margin-left: 8.5px;
+        }
+
+        /*ST>JOSEPH*/
+        h1.headtext {
+            margin-top: 4px;
+            color: white;
+            font-size: 14px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+
+        /*st.joseph*/
+        h3.headtext {
+            margin-top: 2px;
+            font-size: 12px;
+            font-family: monospace;
+        }
+
+        /*OMR*/
+        h4.headtext {
+            color: white;
+            margin-top: 2px;
+            font-size: 10px;
+        }
+
+        /*we make*/
+        h5.headtext {
+            margin-top: -60px;
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            font-style: italic;
+            font-size: 10px;
+        }
+
+        .headtext1 {
+            margin-top: 60px;
+            color: white;
+            font-size: 30px;
+            text-decoration: underline;
+        }
+
+        .para1 {
+            margin-top: 30px;
+        }
+
+
+        #sideNav {
+            width: 200px;
+            height: 100vh;
+            position: fixed;
+            right: -250px;
+            top: 0px;
+            background: rgb(65, 82, 89);
+
+            z-index: 2;
+            transition: .5s;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+
+        p {
+            margin-top: 80px;
+            font-size: 15px;
+            line-height: 28px;
+            color: white;
+        }
+
+        #menuBtn {
+            width: 20px;
+            right: 10px;
+            margin-top: 50px;
+        }
+
+        .common-btn {
+            padding: 10px 16px;
+        }
+
+        #contact {
+            height: 100vh;
+            background-image: url(images/tower.jpg);
+            background-position: center;
+            background-size: cover;
+        }
+
+        .contact-row {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+        }
+
+        .contact-right-col {
+            flex-basis: 50%;
+        }
+
+        .contact-right-col img {
+            width: 100%;
+        }
+
+        .head2 {
+
+            margin-top: 100px;
+            text-align: center;
+            color: white;
+            font-size: 18px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        form {
+            text-align: center;
+            margin-top: 100px;
+            max-width: 350px;
+            margin: 30px 0;
+        }
+
+        form input {
+            width: 100%;
+            padding: 12px 10px;
+            margin-bottom: 5px;
+            outline: none;
+            box-shadow: none;
+            box-sizing: border-box;
+            border: 2px solid #0f021a;
+        }
+
+        .btn-box {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .btn-box button {
+            margin-top: 30px;
+            margin-left: 60px;
+            flex-basis: 48%;
+            padding: 18px 0;
+        }
+
+
+
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #winner {
+        height: 200vh;
+        background-image: url(images/for2.jpg);
+        background-position: center;
+        background-size: cover;
+
+    }
+
+    .head1 {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        text-decoration-line: underline;
+
+
+
+    }
+
+    .head {
+        color: white;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        margin-bottom: -40px;
+
+    }
+
+    .table {
+        margin-left: 175px;
+        width: 70%;
+        border-collapse: collapse;
+    }
+
+    .table td,
+    .table th {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 12px 15px;
+        border: 1px solid #ddd;
+        text-align: center;
+        font-size: 16px;
+        font-style: ;
+        color: #3d042f;
+    }
+
+    .table th {
+        background-color: rgb(78, 13, 62);
+        color: #ffffff;
+    }
+
+    .table tbody tr:nth-child(even) {
+        background-color: rgba(255, 255, 255, 0.37);
+        color: #ffffff;
+    }
+
+    /*responsive*/
+
+    @media(max-width: 500px) {
+
+        #winner {
+            height: 750vh;
+            background-image: url(images/tower.jpg);
+            background-position: center;
+            background-size: cover;
+
+        }
+
+        .table thead {
+            display: none;
+            height: 40px;
+        }
+
+        .table,
+        .table tbody,
+        .table tr,
+        .table th,
+        .table td {
+            display: block;
+            width: 95%;
+            margin-left: 9px;
+
+
+        }
+
+        .table tr {
+            margin-bottom: 15px;
+        }
+
+        .table td {
+            text-align: right;
+            padding-left: 50%;
+            text-align: right;
+            position: relative;
+        }
+
+        .table td::before {
+            content: attr(data-label);
+            position: absolute;
+            left: 0;
+            width: 50%;
+            padding-left: 15px;
+            font-size: 15px;
+            font-weight: bold;
+            text-align: left;
+        }
+    }
+
+
+    @-webkit-keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
+
+    @keyframes fade {
+        from {
+            opacity: .4
+        }
+
+        to {
+            opacity: 1
+        }
+    }
